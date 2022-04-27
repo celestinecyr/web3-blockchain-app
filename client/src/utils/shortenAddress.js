@@ -1,0 +1,1 @@
+export const shortenAddress = (address) => `${address.slice(0,5)}...${address.length - 4}`;        //slice and only take the first 5 characters or last 4
